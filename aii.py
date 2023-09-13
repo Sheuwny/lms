@@ -52,7 +52,7 @@ if __name__ == "__main__":
             query = query.replace("wikipedia", "")
             results = wikipedia.summary(query, sentences=2)
             speak("According to Wikipedia")
-            print(results)
+            print(answer)
             speak(results)
         elif 'open youtube' in query:
             webbrowser.open("youtube.com")
