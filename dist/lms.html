@@ -2,11 +2,30 @@
 <html>
 <head>
 <link rel="stylesheet" href="output.css">
+<style>
+    div{
+        height: 50px;
+        width: 50px;
+        border: 0;
+        display: inline-block;
+        margin-top: 0;
+        box-sizing: border-box;
+        line-height: 1;
+    }
+</style>
 </head>
 <body>
 
-<h1 >This is a heading</h1>
-<p>This is a paragraph.</p>
+    <scrip type="text/template" id="mytemplate">
+        <div>
+            <h1>this is a template</h1>
+            <p>template content goes here</p>
+        </div>
+    </script>
+    <script>
+        const template = document.getElementById("mytemplate");
+        const templateContent = template.innerHTML;
+    </script>
 
 </body>
 </html>
