@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color:black;
+}
+* header
+{
+    padding: 30px;
+    font-size: 30px;
+}
+*header{
+    float: right;
+    list-style: none;
+}
+header ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+header ul li{
+    text-decoration: auto;
+    color: white;
+}
+header ul li a:nth-child(1){
+    background-color: black;
+
+}
